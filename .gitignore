@@ -1,0 +1,31 @@
+# Build output
+bin/
+obj/
+
+# Whisper models
+models/
+*.bin
+
+# Local tools/binaries
+tools/
+*.exe
+*.dll
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Local audio/output contents
+input/*
+working/*
+output/*
+tools/*
+models/*
+
+# Keep folder placeholders
+!input/.gitkeep
+!working/.gitkeep
+!output/.gitkeep
+!tools/.gitkeep
+!models/.gitkeep
