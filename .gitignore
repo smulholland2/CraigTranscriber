@@ -2,15 +2,6 @@
 bin/
 obj/
 
-# Whisper models
-models/
-*.bin
-
-# Local tools/binaries
-tools/
-*.exe
-*.dll
-
 # Visual Studio
 .vs/
 *.user
@@ -29,3 +20,8 @@ models/*
 !output/.gitkeep
 !tools/.gitkeep
 !models/.gitkeep
+
+# Large/local binaries and models
+*.bin
+*.exe
+*.dll
