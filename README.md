@@ -35,3 +35,5 @@ For convenience, packaged Windows builds may be provided under GitHub Releases. 
 ## Folder Setup
 
 Place Craig `.flac` files in:
+```text
+input/
